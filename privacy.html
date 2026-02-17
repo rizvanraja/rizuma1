@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy Policy | Rizuma Group</title>
+  <meta name="description" content="Privacy Policy for Rizuma Group." />
+  <style>
+    :root{--bg:#fff;--surface:#f5f5f7;--text:#1d1d1f;--muted:#6e6e73;--line:rgba(29,29,31,.12);--accent:#006633;--max:980px;}
+    body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","SF Pro Display","Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--text);background:var(--bg);line-height:1.6}
+    a{color:inherit}
+    .container{max-width:var(--max);margin:0 auto;padding:28px 22px}
+    header{position:sticky;top:0;background:rgba(255,255,255,.82);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+    .top{display:flex;justify-content:space-between;align-items:center;padding:14px 0;gap:14px;flex-wrap:wrap}
+    .logo{width:128px;height:auto;display:block}
+    .btn{display:inline-flex;align-items:center;justify-content:center;border-radius:999px;padding:10px 14px;font-size:13px;font-weight:600;border:1px solid var(--line);background:#fff;text-decoration:none}
+    .btn.primary{background:var(--accent);border-color:rgba(0,102,51,.28);color:#fff}
+    main{padding:40px 0}
+    .card{background:var(--surface);border:1px solid var(--line);border-radius:22px;padding:22px}
+    h1{margin:0 0 12px;letter-spacing:-.03em}
+    h2{margin:22px 0 8px;letter-spacing:-.02em}
+    p{margin:0 0 10px;color:var(--muted)}
+    ul{margin:0 0 10px;padding-left:18px;color:var(--muted)}
+    footer{border-top:1px solid var(--line);background:var(--surface);padding:22px 0;color:var(--muted);font-size:12px;margin-top:40px}
+  </style>
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="top">
+      <a href="index.html" aria-label="Rizuma Home"><img class="logo" src="rizuma-logo.png" alt="Rizuma Group logo"></a>
+      <div style="display:flex;gap:10px;flex-wrap:wrap;">
+        <a class="btn" href="terms.html">Terms</a>
+        <a class="btn primary" href="index.html#contact">Contact</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="container">
+    <div class="card">
+      <h1>Privacy Policy</h1>
+      <p><strong>Last updated:</strong> <span id="date"></span></p>
+
+      <p>This Privacy Policy explains how Rizuma Group (“we”, “us”) collects and uses information when you visit our website or contact us.</p>
+
+      <h2>Information we collect</h2>
+      <ul>
+        <li><strong>Enquiry data:</strong> name, email address and message content when you submit an enquiry.</li>
+        <li><strong>Technical data:</strong> basic logs such as IP address and browser user-agent for security and troubleshooting.</li>
+      </ul>
+
+      <h2>How we use information</h2>
+      <ul>
+        <li>To respond to enquiries and provide requested information.</li>
+        <li>To maintain website security and prevent abuse.</li>
+        <li>To improve site performance and user experience.</li>
+      </ul>
+
+      <h2>Sharing</h2>
+      <p>We do not sell personal data. We may share information with service providers used to operate our website and email services, where necessary.</p>
+
+      <h2>Retention</h2>
+      <p>We keep enquiry data only as long as necessary to respond and for legitimate business record purposes.</p>
+
+      <h2>Your rights</h2>
+      <p>You may have rights to access, correct or request deletion of your data. To exercise rights, contact <a href="mailto:info@rizuma.com">info@rizuma.com</a>.</p>
+
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:info@rizuma.com">info@rizuma.com</a></p>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="container">© <span id="year"></span> Rizuma Group. All rights reserved.</div>
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+  document.getElementById("date").textContent = new Date().toLocaleDateString("en-GB");
+</script>
+</body>
+</html>

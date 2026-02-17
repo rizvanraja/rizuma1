@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Terms of Use | Rizuma Group</title>
+  <meta name="description" content="Terms of Use for Rizuma Group." />
+  <style>
+    :root{--bg:#fff;--surface:#f5f5f7;--text:#1d1d1f;--muted:#6e6e73;--line:rgba(29,29,31,.12);--accent:#006633;--max:980px;}
+    body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","SF Pro Display","Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--text);background:var(--bg);line-height:1.6}
+    a{color:inherit}
+    .container{max-width:var(--max);margin:0 auto;padding:28px 22px}
+    header{position:sticky;top:0;background:rgba(255,255,255,.82);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+    .top{display:flex;justify-content:space-between;align-items:center;padding:14px 0;gap:14px;flex-wrap:wrap}
+    .logo{width:128px;height:auto;display:block}
+    .btn{display:inline-flex;align-items:center;justify-content:center;border-radius:999px;padding:10px 14px;font-size:13px;font-weight:600;border:1px solid var(--line);background:#fff;text-decoration:none}
+    .btn.primary{background:var(--accent);border-color:rgba(0,102,51,.28);color:#fff}
+    main{padding:40px 0}
+    .card{background:var(--surface);border:1px solid var(--line);border-radius:22px;padding:22px}
+    h1{margin:0 0 12px;letter-spacing:-.03em}
+    h2{margin:22px 0 8px;letter-spacing:-.02em}
+    p{margin:0 0 10px;color:var(--muted)}
+    footer{border-top:1px solid var(--line);background:var(--surface);padding:22px 0;color:var(--muted);font-size:12px;margin-top:40px}
+  </style>
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="top">
+      <a href="index.html" aria-label="Rizuma Home"><img class="logo" src="rizuma-logo.png" alt="Rizuma Group logo"></a>
+      <div style="display:flex;gap:10px;flex-wrap:wrap;">
+        <a class="btn" href="privacy.html">Privacy</a>
+        <a class="btn primary" href="index.html#contact">Contact</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="container">
+    <div class="card">
+      <h1>Terms of Use</h1>
+      <p><strong>Last updated:</strong> <span id="date"></span></p>
+
+      <p>By using this website, you agree to the following terms. If you do not agree, please do not use the site.</p>
+
+      <h2>Website content</h2>
+      <p>Content is provided for general information only and may be updated without notice. Nothing on this site constitutes professional advice.</p>
+
+      <h2>Enquiries</h2>
+      <p>Submitting an enquiry does not create a client relationship. We may decline to act on enquiries at our discretion.</p>
+
+      <h2>Limitation of liability</h2>
+      <p>To the fullest extent permitted by law, Rizuma Group is not liable for any loss arising from use of, or reliance on, website content.</p>
+
+      <h2>Intellectual property</h2>
+      <p>All content, branding and materials on this site are owned by Rizuma Group or used with permission. You may not copy or reuse without consent.</p>
+
+      <h2>Governing law</h2>
+      <p>These terms are governed by the laws of England and Wales (unless otherwise required by applicable law).</p>
+
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:info@rizuma.com">info@rizuma.com</a></p>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="container">© <span id="year"></span> Rizuma Group. All rights reserved.</div>
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+  document.getElementById("date").textContent = new Date().toLocaleDateString("en-GB");
+</script>
+</body>
+</html>

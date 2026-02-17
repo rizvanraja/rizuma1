@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Insights | Rizuma Group</title>
+  <meta name="description" content="Insights from Rizuma Group: practical guidance across our operating sectors." />
+  <style>
+    :root{--bg:#fff;--surface:#f5f5f7;--surface2:#fafafa;--text:#1d1d1f;--muted:#6e6e73;--line:rgba(29,29,31,.12);--accent:#006633;--accentWeak:rgba(0,102,51,.10);--radius:22px;--shadow:0 18px 50px rgba(0,0,0,.08);--shadowSoft:0 10px 24px rgba(0,0,0,.06);--max:1120px;}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","SF Pro Display","Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--text);background:var(--bg);line-height:1.5;letter-spacing:-0.01em}
+    a{color:inherit;text-decoration:none}
+    .container{max-width:var(--max);margin:0 auto;padding:0 22px}
+    header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.82);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+    .nav{display:flex;align-items:center;justify-content:space-between;padding:14px 0;gap:14px}
+    .nav-left{display:flex;align-items:center;gap:28px}
+    .logoImg{width:128px;height:auto;display:block}
+    nav ul{display:flex;gap:22px;list-style:none;margin:0;padding:0}
+    nav a{font-size:13px;font-weight:500;color:var(--muted);padding:8px 6px;border-radius:999px}
+    nav a:hover{color:var(--text);background:var(--surface)}
+    .actions{display:flex;gap:10px;align-items:center}
+    .btn{display:inline-flex;align-items:center;justify-content:center;border-radius:999px;padding:10px 14px;font-size:13px;font-weight:600;border:1px solid var(--line);background:#fff;transition:.18s}
+    .btn:hover{transform:translateY(-1px);box-shadow:var(--shadowSoft)}
+    .btn.primary{background:var(--accent);border-color:rgba(0,102,51,.28);color:#fff}
+    .hero{padding:76px 0 44px;background:radial-gradient(900px 420px at 25% 0%, var(--accentWeak), transparent 55%),linear-gradient(180deg,var(--surface2) 0%,var(--bg) 60%);border-bottom:1px solid var(--line)}
+    .heroCard{background:rgba(255,255,255,.88);border:1px solid var(--line);border-radius:26px;box-shadow:var(--shadow);padding:34px}
+    .kicker{display:inline-flex;padding:8px 12px;border-radius:999px;font-size:12px;letter-spacing:.10em;text-transform:uppercase;font-weight:700;color:var(--accent);background:var(--accentWeak);border:1px solid rgba(0,102,51,.18)}
+    h1{margin:14px 0 10px;font-size:clamp(40px,4.4vw,56px);line-height:1.04;letter-spacing:-0.04em}
+    .heroCard p{margin:0;color:var(--muted);font-size:17px;max-width:70ch}
+    section{padding:56px 0}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+    .card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadowSoft);transition:.18s;min-height:320px}
+    .card:hover{transform:translateY(-2px);box-shadow:var(--shadow)}
+    .thumb{height:150px;background:radial-gradient(700px 220px at 25% 10%, rgba(0,102,51,.22), transparent 60%),linear-gradient(135deg,#0b1220 0%,#1b2a3f 100%)}
+    .body{padding:16px}
+    .meta{font-size:12px;color:var(--muted)}
+    .body h2{margin:8px 0 0;font-size:16px;letter-spacing:-0.02em;line-height:1.35}
+    .body p{margin:10px 0 0;color:var(--muted);font-size:13px}
+    footer{border-top:1px solid var(--line);background:var(--surface);padding:30px 0;color:var(--muted);font-size:12px}
+    .foot{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}
+    .foot strong{color:var(--text)}
+    @media (max-width:980px){.grid{grid-template-columns:1fr 1fr}nav ul{display:none}}
+    @media (max-width:520px){.grid{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="nav">
+      <div class="nav-left">
+        <a href="index.html" aria-label="Rizuma Home"><img class="logoImg" src="rizuma-logo.png" alt="Rizuma Group logo" /></a>
+        <nav aria-label="Primary">
+          <ul>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="insights.html" style="color:var(--text);">Insights</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="actions">
+        <a class="btn" href="index.html#contact">Enquire</a>
+        <a class="btn primary" href="mailto:info@rizuma.com">Email</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="container">
+      <div class="heroCard">
+        <span class="kicker">Insights</span>
+        <h1>Practical thinking. Clear delivery.</h1>
+        <p>Short updates, perspectives and guidance across property, security and operational execution — written in plain English.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="grid">
+        <a class="card" href="index.html#contact"><div class="thumb"></div><div class="body"><div class="meta">Blog • Discretion</div><h2>Discretion as a delivery standard: what it looks like in practice</h2><p>How we structure engagements to protect client objectives, timelines and outcomes.</p></div></a>
+        <a class="card" href="index.html#contact"><div class="thumb"></div><div class="body"><div class="meta">Briefing • Property</div><h2>Reducing avoidable risk in property-led projects</h2><p>Simple frameworks that improve decision-making and reduce costly surprises.</p></div></a>
+        <a class="card" href="index.html#contact"><div class="thumb"></div><div class="body"><div class="meta">Note • Execution</div><h2>Execution vs intention: why outcomes depend on structure</h2><p>How planning, accountability and reporting systems keep delivery on track.</p></div></a>
+        <a class="card" href="index.html#contact"><div class="thumb"></div><div class="body"><div class="meta">Update • Security</div><h2>Professional risk management without noise</h2><p>Proportional approaches that focus on what matters and avoid unnecessary friction.</p></div></a>
+        <a class="card" href="index.html#contact"><div class="thumb"></div><div class="body"><div class="meta">Guide • Private Client</div><h2>High-trust engagements: boundaries, clarity, and confidentiality</h2><p>How to set expectations and protect confidentiality across private client work.</p></div></a>
+        <a class="card" href="index.html#contact"><div class="thumb"></div><div class="body"><div class="meta">Briefing • Training</div><h2>Training that works: specificity over volume</h2><p>Why targeted training beats generic courses when real-world execution matters.</p></div></a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    <div class="foot">
+      <div><strong>Rizuma Group</strong><br/>Specialist services. Trusted execution.</div>
+      <div><a href="privacy.html">Privacy</a> • <a href="terms.html">Terms</a></div>
+      <div>© <span id="year"></span> Rizuma Group. All rights reserved.</div>
+    </div>
+  </div>
+</footer>
+<script>document.getElementById("year").textContent=new Date().getFullYear();</script>
+</body>
+</html>
